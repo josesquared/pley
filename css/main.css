@@ -1,0 +1,23 @@
+#page{
+	padding: 25px;
+}
+
+#btn-submit{
+	margin-left: 5px;
+}
+
+.alert ul{
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+.alert ul li{
+	display:none;
+}
+
+.required .control-label::after{
+	content: '*';
+	color: red;
+	margin-left: 3px;
+}
